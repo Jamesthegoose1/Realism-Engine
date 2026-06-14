@@ -1,1 +1,6 @@
+.req<aeth.oop.lib>
+.req<aeth.global.reg.lib>
+.req<aeth.process.lib>
+.req<aeth.filesys.lib>
 
+var contextdll = file::open(".\dlls\bindings\bridge.dll")
